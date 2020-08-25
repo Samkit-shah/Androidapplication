@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.samkit.mycompanymanager">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".addnewhead" />
+        <activity android:name=".addemployee" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/btn_rounded" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".adminlogin" />
+        <activity android:name=".showempdetails" />
+        <activity android:name=".showtaskforemp" />
+        <activity android:name=".marketingemployee" />
+        <activity android:name=".checkemplogin" />
+        <activity android:name=".emplogin" />
+        <activity android:name=".empllogin" />
+        <activity android:name=".loginas" />
+        <activity android:name=".checklogin" />
+        <activity android:name=".showmarketinghead" />
+        <activity android:name=".tasktomarketing" />
+        <activity android:name=".Onassign" />
+        <activity android:name=".assigntaskmarketing" />
+        <activity android:name=".showmarketingemp" />
+        <activity android:name=".headofmarketing" />
+        <activity android:name=".Marketing1" />
+        <activity android:name=".admin" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

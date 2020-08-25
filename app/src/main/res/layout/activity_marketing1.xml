@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5B5DF"
+    tools:context=".Marketing1">
+
+    <Button
+        android:id="@+id/headdetails"
+        android:layout_width="447dp"
+        android:layout_height="39dp"
+        android:background="#B5B5DF"
+        android:text="VIEW LIST OF HEADS"
+        android:textColor="#040303"
+        app:layout_constraintBottom_toTopOf="@+id/addemployee"
+        tools:layout_editor_absoluteX="-1dp" />
+
+    <Button
+        android:id="@+id/employeedetails"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="450dp"
+        android:layout_height="40dp"
+        android:background="#B5B5DF"
+        android:text="VIEW LIST OF EMPLOYEES"
+        android:textColor="#020102"
+        app:layout_constraintBottom_toTopOf="@+id/headdetails"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <Button
+        android:id="@+id/addemployee"
+        android:layout_width="450dp"
+        android:layout_height="49dp"
+        android:background="#B5B5DF"
+        android:text="ADD EMPLOYEE"
+        android:textColor="#040303"
+        app:layout_constraintBottom_toTopOf="@+id/addemp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/addemp"
+        android:layout_width="453dp"
+        android:layout_height="49dp"
+        android:background="#B5B5DF"
+        android:text="ADD HEAD"
+        android:textColor="#231A1A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
